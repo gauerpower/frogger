@@ -21,6 +21,11 @@ scr.onkey(player.move_down, 'Down')
 scr.onkey(player.move_left, 'Left')
 scr.onkey(player.move_right, 'Right')
 
+scr.onkey(player.move_up, 'w')
+scr.onkey(player.move_down, 'a')
+scr.onkey(player.move_left, 's')
+scr.onkey(player.move_right, 'd')
+
 game_going = True
 game_speed = 0.1
 
